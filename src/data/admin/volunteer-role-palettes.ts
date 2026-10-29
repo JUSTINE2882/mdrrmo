@@ -1,0 +1,45 @@
+import {
+  Ambulance,
+  Baby,
+  Building2,
+  ClipboardCheck,
+  FileText,
+  GraduationCap,
+  HeartHandshake,
+  HeartPulse,
+  Leaf,
+  LucideIcon,
+  Radio,
+  Tent,
+  Truck,
+} from 'lucide-react';
+
+export const roleColors: Record<string, string> = {
+  'Rescue and Emergency Response': 'bg-red-100 text-red-500',
+  'Medical and First Aid': 'bg-emerald-100 text-emerald-500',
+  'Communications and Early Warning': 'bg-sky-100 text-sky-500',
+  'Evacuation and Camp Management': 'bg-orange-100 text-orange-500',
+  'Relief and Logistics': 'bg-amber-100 text-amber-500',
+  'Information Management and Documentation': 'bg-indigo-100 text-indigo-500',
+  'Damage Assessment': 'bg-stone-100 text-stone-500',
+  'Community Preparedness and Training': 'bg-teal-100 text-teal-500',
+  'Psychosocial Support': 'bg-purple-100 text-purple-500',
+  'Environmental Protection and Rehabilitation': 'bg-lime-100 text-lime-500',
+  'Administrative and EOC Support': 'bg-slate-100 text-slate-500',
+  'Youth and Child Support': 'bg-pink-100 text-pink-500',
+};
+
+export const roleIcons: Record<string, LucideIcon> = {
+  'Rescue and Emergency Response': Ambulance,
+  'Medical and First Aid': HeartPulse,
+  'Communications and Early Warning': Radio,
+  'Evacuation and Camp Management': Tent,
+  'Relief and Logistics': Truck,
+  'Information Management and Documentation': FileText,
+  'Damage Assessment': ClipboardCheck,
+  'Community Preparedness and Training': GraduationCap,
+  'Psychosocial Support': HeartHandshake,
+  'Environmental Protection and Rehabilitation': Leaf,
+  'Administrative and EOC Support': Building2,
+  'Youth and Child Support': Baby,
+};
